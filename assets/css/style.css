@@ -1,0 +1,153 @@
+body {
+    background-image: url("../img/bamboo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+/*Estilos del Navbar*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Abril Fatface', cursive;
+}
+
+ul li {
+    display: inline-block
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover,
+.dropbtn:hover {
+    background-color: #52771d;
+    color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #78952f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*Imagenes de los pandas*/
+
+.img {
+    display: inline-block;
+    padding: 15px;
+}
+
+#panda1 {
+    padding: 10;
+    border: 10px solid #808080;
+    width: 200px;
+    height: 200px;
+}
+
+#panda2 {
+    padding: 0;
+    border: 10px solid #808080;
+    width: 200px;
+    height: 200px;
+}
+
+#panda3 {
+    padding: 0;
+    border: 10px solid #808080;
+    width: 200px;
+    height: 200px;
+}
+
+#panda4 {
+    padding: 0;
+    border: 10px solid #808080;
+    width: 200px;
+    height: 200px;
+}
+
+#panda1.hidden,
+#panda2.hidden,
+#panda3.hidden,
+#panda4.hidden {
+    visibility: hidden;
+}
+
+.data {
+    position: center;
+    display: inline-block;
+}
+
+#centrar {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#data1,
+#data2,
+#data3 {
+    background-color: #78952f;
+    display: inline-block;
+    margin: 18px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.blocks {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockone {
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.blocktwo {
+    display: block;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
