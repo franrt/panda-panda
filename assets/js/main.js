@@ -28,10 +28,17 @@ function borrar4() {
 }
 
 
-//Restaurar todos los pandas
-function restaurar() {
-    var pandas = [document.getElementById("panda1"), document.getElementById("panda2"), document.getElementById("panda3"), document.getElementById("panda4")];
-    document.getElementById("data3").addEventListener("click", function() {
-        pandas.style.display = 'inline-block';
-    });
-}
+/*Restaurar todos los pandas... no me funciona aun
+function retaurar() {
+    forEach(document.getElementsByClassName("foto")) {
+        document.getElementById("data3").addEventListener("click", function() {
+            foto.style.display = 'inline-block';
+        });
+    }
+
+    function restaurar() {
+        var pandas = [panda1, panda2, panda3, panda4];
+        document.getElementById("data3").addEventListener("click", function() {
+            pandas.style.display = 'inline-block';
+        });
+    }*/
