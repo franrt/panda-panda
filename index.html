@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Inconsolata:400,700|Pacifico&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <!--Navbar-->
@@ -22,17 +23,17 @@
     <div id="centrar">
         <!--imagenes de los pandas-->
         <section class="img" id="pandas">
-            <a href="#"><img src="assets/img/panda1.jpg" alt="Panda1" id="panda1"></a>
-            <a href="#"><img src="assets/img/panda2.jpg" alt="Panda2" id="panda2"></a>
-            <a href="#"><img src="assets/img/panda3.jpg" alt="Panda3" id="panda3"></a>
-            <a href="#"><img src="assets/img/panda4.jpg" alt="Panda4" id="panda4"></a>
+            <a href="#"><button onclick="borrar1()"><i class="fa fa-times-circle" id="btn1"></i><img src="assets/img/panda1.jpg" alt="Panda1" id="panda1"></a>
+            <a href="#"><button onclick="borrar2()"><i class="fa fa-times-circle" id="btn2"></i><img src="assets/img/panda2.jpg" alt="Panda2" id="panda2"></a>
+            <a href="#"><button onclick="borrar3()"><i class="fa fa-times-circle" id="btn3"></i><img src="assets/img/panda3.jpg" alt="Panda3" id="panda3"></a>
+            <a href="#"><button onclick="borrar4()"><i class="fa fa-times-circle" id="btn4"></i><img src="assets/img/panda4.jpg" alt="Panda4" id="panda4"></a>
         </section>
         <!--datos de los pandas-->
         <section class="data" id="pandata">
             <div id="divdata">
                 <span id="data1">Origen</span>
                 <span id="data2">Extinción</span>
-                <span id="data3">Restaurar Fotos</span>
+                <span id="data3"><button onclick="restaurar()" id="boton">Restaurar Fotos</span>
             </div>
         </section>
         <!--texto simulado-->
@@ -53,6 +54,7 @@
             </div>
         </section>
     </div>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
