@@ -28,17 +28,17 @@ function borrar4() {
 }
 
 
-/*Restaurar todos los pandas... no me funciona aun
-function retaurar() {
-    forEach(document.getElementsByClassName("foto")) {
-        document.getElementById("data3").addEventListener("click", function() {
-            foto.style.display = 'inline-block';
-        });
-    }
+//Restaurar todos los pandas... no me funciona aun
+function restaurar() {
+    document.getElementById("panda1").style.display = "inline-block";
+    document.getElementById("panda2").style.display = "inline-block";
+    document.getElementById("panda3").style.display = "inline-block";
+    document.getElementById("panda4").style.display = "inline-block";
+}
 
-    function restaurar() {
-        var pandas = [panda1, panda2, panda3, panda4];
-        document.getElementById("data3").addEventListener("click", function() {
-            pandas.style.display = 'inline-block';
-        });
-    }*/
+/*function restaurar() {
+    var pandas = [panda1, panda2, panda3, panda4];
+    document.getElementById("data3").addEventListener("click", function() {
+        pandas.style.display = 'block';
+    });
+}*/
